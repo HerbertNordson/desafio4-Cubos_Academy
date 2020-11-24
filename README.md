@@ -1,0 +1,2 @@
+# desafio4-Cubos_Academy
+ Chegando ao fim do curso, você foi contratado(a) para trabalhar numa StartUp que terceiriza um sistema de cobranças. Ou seja, os usuários de vocês, após se cadastrarem na plataforma, podem cadastrar os clientes deles e criar uma cobrança para que os clientes paguem. Os clientes recebem um email com o link do boleto para pagar.  Além disso, nesta plataforma os usuários podem ver e buscar clientes, ver e buscar cobranças, marcar uma cobrança como paga, ver um resumo de todo o financeiro, dentre outras coisas.
