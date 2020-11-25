@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 			</div>
 			<div className="dados">
 				<div className="email">
-					<span>Email</span><br></br>
+					<span>E-mail</span><br></br>
 					<input type="text" placeholder="exemplo@gmail.com" />
 				</div>
 				<div className="senha">

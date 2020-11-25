@@ -3,9 +3,29 @@
 	background: #F7F7F7;
 }
 
+.App{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .login {
-	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	width: 405px;
 	height: 507px;
-	border: solid 1px black;
+	box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+	border-radius: 16px;
+	margin-top: 150px;
+}
+
+span{
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.dados input {
+	padding: 0.5em 1em;
 }
