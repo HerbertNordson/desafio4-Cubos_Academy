@@ -1,0 +1,23 @@
+.inputSenha {
+  position: relative;
+  margin: 0;
+}
+
+.inputSenha button {
+  width: 22px;
+  height: 20px;
+  background-color: #f7f7f7;
+  position: absolute;
+  padding: 0;
+  border: 0;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-40%);
+}
+
+.titulo {
+  padding: 1em;
+  padding-bottom: 0;
+  font-weight: 600;
+  font-size: 16px;
+}
