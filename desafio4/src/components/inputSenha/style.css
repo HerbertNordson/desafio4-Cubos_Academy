@@ -14,10 +14,3 @@
   top: 50%;
   transform: translateY(-40%);
 }
-
-.titulo {
-  padding: 1em;
-  padding-bottom: 0;
-  font-weight: 600;
-  font-size: 16px;
-}

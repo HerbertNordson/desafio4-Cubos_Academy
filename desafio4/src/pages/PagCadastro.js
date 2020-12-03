@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { InputSenha } from "../components/inputSenha";
 
 import "./style.css";
@@ -9,13 +10,13 @@ export function PagCadastro(props) {
   const [nome, setNome] = React.useState();
 
   return (
-    <div className="telaInicial">
+    <div className="telaCadastro">
       <div className="login">
         <img className="cubos" src="/images/Layer1.svg" alt="Logo"></img>
-        <div className="tituloLogin">
+        <div className="titulo">
           <span>Nome</span>
         </div>
-        <div className="email">
+        <div className="nome">
           <input
             name="nome"
             type="text"
@@ -26,8 +27,8 @@ export function PagCadastro(props) {
           />
         </div>
 
-        <div className="tituloLogin">
-          <span>Login</span>
+        <div className="titulo">
+          <span>E-mail</span>
         </div>
         <div className="email">
           <input
@@ -49,7 +50,7 @@ export function PagCadastro(props) {
       </div>
       <div className="foraDoLogin">
         <span>
-          Já possui uma conta? <a href="/">Acesse Agora!</a>
+          Já possui uma conta? <Link to="/login">Acesse Agora!</Link>
         </span>
       </div>
     </div>
