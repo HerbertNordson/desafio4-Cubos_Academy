@@ -1,0 +1,62 @@
+.lateral{
+	box-sizing: border-box;
+	background-color: #263238;
+	width: 264px;
+	height: 1763px;
+}
+
+.imagemLogo{
+	background-color: transparent;
+	padding-left: 48px;
+	padding-top: 32px;
+	padding-bottom: 74px;
+}
+
+img{
+	background-color: transparent;
+	margin-right: 20px;
+}
+
+.homeAtivo, .cobrancasAtivo, .clientesAtivo {
+	display: flex;
+	align-items: center;
+	background-color: #263238;
+	color: #f7f7f7;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 15px;
+	text-align: left;
+	width: 264px;
+	height: 47px;
+	border: 0;
+	border-radius: 0;
+	padding-left: 42px;
+}
+
+.home, .cobrancas, .clientes{
+	display: flex;
+	align-items: center;
+	background-color:#374952;
+	color: #f7f7f7;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 15px;
+	text-align: left;
+	width: 264px;
+	height: 47px;
+	border:0;
+	border-radius: 0;
+	padding-left: 42px;
+}
+
+.criarCobranca{
+	position: absolute;
+	margin-top: 328px;
+	border: 0;
+	border-radius: 20px;
+	color: #f7f7f7;
+	background-color:#DA0175;
+	padding:1em 4rem;
+	margin-left: 19px;
+}
+

@@ -1,12 +1,10 @@
 import React from "react";
+import { Lateral } from "../components/MenuLateral";
 
 export function PagHome (props) {
 	return(
-		<div>
-			<div className="menu">
-				<img src="images/Layer1.svg" alt=""/>
-				
-			</div>
+		<div className="principal">
+			<Lateral/>
 
 		</div>
 	);

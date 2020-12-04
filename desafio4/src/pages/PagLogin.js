@@ -6,8 +6,9 @@ import { useHistory } from "react-router-dom";
 import "./style.css";
 
 export function PagLogin(props) {
-	const history = useHistory()
-	
+
+  const history = useHistory();
+
   const [senha, setSenha] = React.useState();
   const [email, setEmail] = React.useState();
   const [token, setToken] = React.useState();
@@ -31,9 +32,9 @@ export function PagLogin(props) {
           />
           <InputSenha senha={senha} setSenha={setSenha} />
         </div>
-		<div className="esqueciSenha">
-			<Link to="/RecuperarSenha">Esqueci minha senha</Link>
-		</div>
+        <div className="esqueciSenha">
+          <Link to="/RecuperarSenha">Esqueci minha senha</Link>
+        </div>
         <div>
           <button
             className="entrar"
@@ -55,13 +56,12 @@ export function PagLogin(props) {
                   .then((response) => {
                     if (response.dados.token) {
                       setToken(response.dados.token);
-                      history.push("/home")
+                      history.push("/home");
                     } else {
                       alert(response.dados.mensagem);
                     }
                   });
               } else {
-                alert("Você está desconectado!");
                 setToken(undefined);
               }
             }}
