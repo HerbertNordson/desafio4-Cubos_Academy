@@ -1,0 +1,130 @@
+.cabecalho {
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-left: 72px;
+	padding-top: 64px;
+}
+
+.conteudo{
+	padding-right: 400px;
+}
+
+.saldo{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color:#374952;
+	border-radius: 5px;
+	padding-left: 24px;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 32px;
+	color: #f7f7f7;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.saldo img{
+	background-color: transparent;
+	margin-right: 5px;
+}
+
+.imagem{
+	display: flex;
+	align-items: center;
+	background-color: transparent;
+	margin-bottom: 8px;
+}
+
+.valor{
+	background-color:transparent;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.sair{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding-right:56px;
+	padding-left: 400px;
+}
+
+.perfil {
+	padding:0;
+	width: 44px;
+	height: 44px;
+	border-radius: 20px;
+	border: 0;
+}
+
+.perfil img {
+	margin-right: 0;
+	
+}
+
+.deslogar{
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	padding-bottom: 21px;
+	padding-top: 21px;
+	font-size: 12px;
+	border-radius: 8px;
+	border: 0;
+	box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.1);
+}
+
+.deslogar img{
+	margin-right: 8px;
+}
+
+.botaoSair{
+	width: 100px;
+	height: 56px;
+}
+
+.botaoEBusca{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 148px;
+	padding-left: 72px;
+	padding-right: 56px;
+}
+
+.addCliente{
+	font-size: 14px;
+	font-weight: 600;
+	border: 3px solid #DA0175;
+	color: #DA0175;
+	border-radius: 30px;
+	padding:0.8rem 4rem;
+}
+
+.inputButton{
+	position: relative;
+	border: 1px blue;
+}
+
+.buscar {
+	position: relative;
+	width: 30rem;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.buscarButton{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	padding: 0.8rem 2rem;
+	border: 1 ;
+	border-radius: 10px;
+	background-color: #374952;
+	font-size: 12px;
+	font-weight: 600;
+	color: #ffffff;
+	left:335px;
+	bottom: 3px;
+}

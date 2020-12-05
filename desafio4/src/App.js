@@ -5,12 +5,13 @@ import { PagCadastro } from "./pages/PagCadastro";
 import { PagEsqueciSenha } from "./pages/PagEsqueciSenha";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { PagHome } from "./pages/PagHome";
+import { PagCobrancas } from "./pages/PagCobrancas";
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/login">
+        <Route exact path="/login">
           <PagLogin />
         </Route>
         <Route path="/cadastro">
@@ -21,6 +22,9 @@ function App() {
         </Route>
 		<Route path="/home">
           <PagHome />
+        </Route>
+		<Route path="/cobranca">
+          <PagCobrancas/>
         </Route>
       </Switch>
     </BrowserRouter>

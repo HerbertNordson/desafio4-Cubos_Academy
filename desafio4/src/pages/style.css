@@ -140,3 +140,10 @@ input{
 		  padding:32px
 	  }
   }
+
+  /* ------------------------------------ H O M E -------------------------------------------- */
+
+  .principal{
+	  display: flex;
+	  box-sizing: border-box;
+  }
